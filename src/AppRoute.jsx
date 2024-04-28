@@ -6,7 +6,7 @@ function AppRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="" element={<Main />} />
+                <Route path="/anniversary/" element={<Main />} />
             </Routes>
         </BrowserRouter>
     );
